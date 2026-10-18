@@ -1,4 +1,4 @@
-# 🍕 FoodieGo REST API & Database (Tugas Pak Bonda - Kelas F)
+# 🍕 FoodieGo REST API & Database
 
 Dokumentasi resmi Backend API dan Database mandiri untuk aplikasi pemesanan makanan **FoodieGo (Food Order App)**.
 API ini dibuat secara terpisah dari frontend, tanpa menggunakan Firebase atau Supabase, menggunakan **MySQL (Laragon)** dan **PHP REST API**.
