@@ -1,11 +1,11 @@
-# 🍕 FoodieGo REST API & Database
+# FoodieGo REST API & Database
 
 Dokumentasi resmi Backend API dan Database mandiri untuk aplikasi pemesanan makanan **FoodieGo (Food Order App)**.
 API ini dibuat secara terpisah dari frontend, tanpa menggunakan Firebase atau Supabase, menggunakan **MySQL (Laragon)** dan **PHP REST API**.
 
 ---
 
-## 🌟 Ringkasan Arsitektur & Teknologi
+## Ringkasan Arsitektur & Teknologi
 
 | Komponen | Spesifikasi | Keterangan |
 | :--- | :--- | :--- |
@@ -17,7 +17,7 @@ API ini dibuat secara terpisah dari frontend, tanpa menggunakan Firebase atau Su
 
 ---
 
-## 🚀 Cara Menjalankan API & Database
+## Cara Menjalankan API & Database
 
 Tersedia **2 Cara Mudah** untuk menjalankan API:
 
@@ -42,7 +42,7 @@ Tersedia **2 Cara Mudah** untuk menjalankan API:
 
 ---
 
-## 🗄️ Struktur Database (`food_order_db`)
+## Struktur Database (`food_order_db`)
 
 Database terdiri dari 12 tabel terelasi yang disinkronkan 100% dengan tampilan frontend:
 
@@ -63,7 +63,7 @@ Database terdiri dari 12 tabel terelasi yang disinkronkan 100% dengan tampilan f
 
 ---
 
-## 📋 Daftar Lengkap Endpoint API
+## Daftar Lengkap Endpoint API
 
 Semua endpoint mengembalikan respon JSON standar:
 ```json
@@ -151,11 +151,11 @@ Semua endpoint mengembalikan respon JSON standar:
 
 ---
 
-## 🧪 Cara Pengujian Endpoint
+## Cara Pengujian Endpoint
 
 ### 1. Menggunakan Test Dashboard Bawaan (Paling Mudah)
 Buka di browser:
-👉 **`http://localhost:8000/test_dashboard.html`** (atau `http://localhost/food_order_api/test_dashboard.html`)
+ **`http://localhost:8000/test_dashboard.html`** (atau `http://localhost/food_order_api/test_dashboard.html`)
 - Terdapat tombol uji langsung (1-klik Kirim Request).
 - Parameter dan request body JSON dapat disesuaikan langsung di web.
 - Tampilan status HTTP, waktu respon (ms), dan syntax highlighter JSON.
@@ -168,7 +168,7 @@ Buka di browser:
 
 ---
 
-## 📱 Integrasi Frontend Flutter
+##  Integrasi Frontend Flutter
 
 Frontend Flutter sudah memanggil API untuk katalog, restoran, detail menu, keranjang, login/registrasi, profil, alamat, voucher, checkout, dan riwayat pesanan. Client service tersedia pada:
    ```
